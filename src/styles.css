@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-title {
+    @apply transform border-2 border-white bg-transparent py-4 text-center text-sm font-medium text-white transition duration-300 hover:bg-white hover:text-cyan-500;
+  }
+
+  .ic-style {
+    @apply cursor-pointer text-3xl text-white transition duration-75 ease-in-out hover:scale-105;
+  }
+}
